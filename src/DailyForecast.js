@@ -1,5 +1,3 @@
-import DateFormatter from "./DateFormatter";
-
 export default function DailyForecast(props) {
   function maxTemperature() {
     let temperature = Math.round(props.forecastData.temp.max);

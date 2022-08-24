@@ -17,7 +17,9 @@ export default function Weather() {
     return () => {
       console.log("cleanup");
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [city]);
+  //Above comment line added to remove react hook warnning
 
   function updateCityFunction(city) {
     setCity(city);

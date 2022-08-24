@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react/cjs/react.development";
+import { useState } from "react/cjs/react.development";
 
 // React component always takes only one argument/ property and
 //that is "props". Props are read only. props is an object which has refernce to the arguments sent from Calling component.
