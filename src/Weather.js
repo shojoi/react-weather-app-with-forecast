@@ -45,7 +45,7 @@ export default function Weather() {
     let apiEndpoint = "https://api.openweathermap.org/data/2.5/weather?";
     let apiUrl = `${apiEndpoint}q=${city}&units=${unit}&appid=${apiKey}`;
 
-    //console.log(`Weather axios ${apiUrl}`);
+    console.log(`Weather axios ${apiUrl}`);
 
     axios
       .get(apiUrl)

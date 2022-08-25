@@ -1,5 +1,3 @@
-import React from "react";
-
 import DateFormatter from "./DateFormatter";
 
 export default function WeatherDisplay(props) {
